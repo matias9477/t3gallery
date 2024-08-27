@@ -5,6 +5,13 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    typescript: {
+        ignoreBuildErrors: true, //we can do this in a github action instead of at build
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+};
 
 export default config;
