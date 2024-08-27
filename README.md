@@ -1,6 +1,6 @@
 ## TODO
 
-- [ ] Make it deploy
+- [x] Make it deploy
 - [ ] Scaffold basic ui with mock data
 - [ ] actually set up a database
 - [ ] attach database to UI
