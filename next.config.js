@@ -6,6 +6,9 @@ await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
 const config = {
+    images: {
+        remotePatterns: [{hostname: "utfs.io"}]
+    },
     typescript: {
         ignoreBuildErrors: true, //we can do this in a github action instead of at build
     },

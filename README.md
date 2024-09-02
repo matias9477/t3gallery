@@ -7,7 +7,7 @@
 - [x] add auth (used Clerk)
 - [x] add image upload
 - [x] 'taint' server only
-- [ ] use next image comp
+- [x] use next image comp
 - [ ] error management (with sentry)
 - [ ] routing
 - [ ] delete button with server actions
