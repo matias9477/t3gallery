@@ -5,8 +5,8 @@
 - [x] actually set up a database
 - [x] attach database to UI
 - [x] add auth (used Clerk)
-- [ ] add image upload
-- [ ] 'taint' server only
+- [x] add image upload
+- [x] 'taint' server only
 - [ ] use next image comp
 - [ ] error management (with sentry)
 - [ ] routing
